@@ -1,7 +1,4 @@
-baseurl: "/"
-languageCode: "en-us"
-title: "Hugo XMag"
-theme: "xmag"
-
-permalinks:
-  post: "/post/:year/:month/:day/:slug/"
+baseURL = "https://example.com"
+title   = "Timeline"
+languageCode = "en-us"
+theme = "timeline"
