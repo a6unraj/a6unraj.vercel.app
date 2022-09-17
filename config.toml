@@ -1,7 +1,7 @@
 baseURL = "https://a6unraj.vercel.app"
 title   = "Timeline"
 languageCode = "en-us"
-theme = "timeline"
+theme = "xmag"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
