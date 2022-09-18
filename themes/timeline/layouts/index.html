@@ -12,7 +12,7 @@
             <div class="timeline-content js--fadeInLeft">
                 <h2><span class="post-title">{{.Title}}</span></h2>
                {{ with .Params.Cover }}
-                <img src="/{{ . }}" class="post-cover" />
+                <img src="/{{ . }}" />
             {{ end }}
                 <a href="{{.Permalink}}"><div class="date">{{ .Date.Format "Jan 2, 2006"}}</div></a>
             </div>
