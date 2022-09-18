@@ -11,10 +11,8 @@
             <div class="timeline-img"></div>
             <div class="timeline-content js--fadeInLeft">
                 <h2><span class="post-title">{{.Title}}</span></h2>
-                {{ $image := .Resources.GetMatch "sunset.jpg" }}
-{{ with $image }}
-  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
-{{ end }}
+                {{ $image := .Resources.GetMatch "mar-8-2022_1.jpg" }}
+<img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
                 <a href="{{.Permalink}}"><div class="date">{{ .Date.Format "Jan 2, 2006"}}</div></a>
             </div>
         </div>  
