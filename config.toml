@@ -3,29 +3,25 @@ title   = "A6un's Life Events"
 languageCode = "en-us"
 theme = "timeline"
 
-
-PygmentsCodeFences = true
-PygmentsStyle = "monokai"
-
-paginate  = 10
-rssLimit  = 10  # Maximum number of items in the RSS feed.
-
-copyright = "Powered by Go Hugo and Timeline theme" 
-
-googleAnalytics = "UA-34033689-1"
-# disqusShortname = ""
-
 archetypeDir = "archetypes"
 contentDir   = "content"
 dataDir      = "data"
 layoutDir    = "layouts"
 publishDir   = "public"
 
+PygmentsStyle = "monokai"
+
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "Powered by Go Hugo and Timeline theme" 
+
+googleAnalytics = "UA-34033689-1"
+
+PygmentsCodeFences = true
 buildDrafts  = false
 buildFuture  = false
 buildExpired = false
 canonifyURLs = true
-
 enableRobotsTXT = true
 enableGitInfo   = false
 enableEmoji     = true
@@ -49,6 +45,7 @@ disableHugoGeneratorInject = false
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
+  contentTypeName = "post"
 
 images = [""]
 disableReadOtherPosts = false
