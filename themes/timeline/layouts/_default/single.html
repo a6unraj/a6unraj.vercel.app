@@ -34,12 +34,9 @@
   					     <span class="tag"><a href="{{ "tags/" | absLangURL }}{{ . | urlize }}">{{.}}</a></span>
   					{{- end }}
   				</p>
-  			{{- end }}
-
-             
+  			{{- end }}             
   		</div>
-        {{ if eq .Type $.Site.Params.contentTypeName }}
-      {{ if or .NextInSection .PrevInSection }}
+       
         <div class="pagination">
           <div class="pagination__title">
             <span class="pagination__title-h"
@@ -66,7 +63,5 @@
             {{ end }}
           </div>
         </div>
-      {{ end }}
-    {{ end }}
     </main>
 {{ end }}
