@@ -8,14 +8,12 @@
       <div class="container" style="text-align: left!important">
         {{ range .Pages.ByDate.Reverse  }} 
         <div class="timeline-item">
-            <div class="timeline-img"></div>
+            <div class="timeline-img">
+                <img src ={{.Photo.URL}}""/>
+            </div>
             <div class="timeline-content js--fadeInLeft">
                 <h2><a href="{{.Permalink}}"><span class="post-title">{{.Title}}</span></a></h2>
                 <div class="date">{{ .Date.Format "Jan 2, 2006"}}</div>
-                <p>
-                    {{.Params.Eventname}}<br>
-                    {{.Params.Eventlocation}}
-                </p> 
             </div>
         </div>  
         {{ end }}   
