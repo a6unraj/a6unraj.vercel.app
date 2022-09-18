@@ -32,3 +32,47 @@ disableRSS     = false
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
+
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+  
+  [taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+  
+  [params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+
+disableReadOtherPosts = false
+
+customCSS = ["css/custom.css"]
+
+# Colors for favicons
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+  [params.logo]
+    logoText     = "$"
+    logoHomeLink = "/"
+
+[menu]
+  [[menu.main]]
+    identifier = "timeline"
+    name       = "Timeline"
+    url        = "timeline/"
+    weight     = 1
+ 
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
