@@ -53,6 +53,10 @@ disableReadOtherPosts = false
 
 customCSS = ["css/custom.css"]
 
+# Default theme "light" or "dark"
+  defaultTheme = "light"
+  themeColor = "#252627"
+
 # Colors for favicons
   [params.favicon.color]
     mask = "#252627"
