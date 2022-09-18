@@ -20,6 +20,9 @@
             <div class="post-content">
                 {{ .Content }} 
             </div>
+            
+            {{ $image := .Resources.GetMatch "sunset.jpg" }}
+<img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
         </article>
 
         <hr />
