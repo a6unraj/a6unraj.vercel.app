@@ -10,7 +10,7 @@ PygmentsStyle = "monokai"
 paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 
-copyright = "Powered by Go Hugo and Timeline theme https://github.com/s4n7h0/hugo-theme-timeline" 
+copyright = "Powered by Go Hugo and Timeline theme <a href ="https://github.com/s4n7h0/hugo-theme-timeline">Timeline</a>" 
 
 googleAnalytics = "UA-34033689-1"
 # disqusShortname = ""
