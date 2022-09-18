@@ -34,7 +34,14 @@
   					     <span class="tag"><a href="{{ "tags/" | absLangURL }}{{ . | urlize }}">{{.}}</a></span>
   					{{- end }}
   				</p>
-  			{{- end }}             
+  			{{- end }}   
+            <span class="post-day">
+                                    {{ if .Site.Params.dateformShort }}
+                                        {{ .Date.Format .Site.Params.dateformShort }}
+                                    {{ else }}
+                                        {{ .Date.Format "Jan 2"}}
+                                    {{ end }}
+                                </span>
   		</div>
        
         <div class="pagination">
