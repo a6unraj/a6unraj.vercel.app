@@ -1,4 +1,4 @@
-baseURL = "a6unraj.vercel.app"
+baseURL = "/"
 title   = "A6un's 1st Experiences"
 languageCode = "en-us"
 theme = "timeline"
@@ -32,8 +32,7 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 
-[permalinks]
-  posts = "/posts/:year/:month/:title/"
+
   
   [taxonomies]
   tag      = "tags"
