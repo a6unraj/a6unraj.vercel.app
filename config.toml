@@ -75,10 +75,7 @@ customCSS = ["css/custom.css"]
     # logoCursorAnimate  = "2s"
 
 [permalinks]
-  [permalinks.page]
-    articles = '/blog/:year/:month/:slug/'
-  [permalinks.section]
-    articles = '/blog/'    
+  posts = '/:06/:1/:2/:title/'
 
 [markup]
   defaultMarkdownHandler = "goldmark"
