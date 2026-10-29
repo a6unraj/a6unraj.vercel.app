@@ -1,4 +1,4 @@
-baseURL = "https://experiences.arun.fyi"
+baseURL = "experiences.arun.fyi"
 title   = "A6un's 1st Experiences"
 languageCode = "en-us"
 theme = "timeline"
