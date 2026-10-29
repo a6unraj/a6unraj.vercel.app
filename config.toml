@@ -74,9 +74,6 @@ customCSS = ["css/custom.css"]
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     # logoCursorAnimate  = "2s"
 
-[permalinks]
-  posts = '/:06/:1/:2/:title/'
-
 [markup]
   defaultMarkdownHandler = "goldmark"
   [markup.goldmark]
